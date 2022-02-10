@@ -1,0 +1,2 @@
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.1\Duinn.csproj.AssemblyReference.cache
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.1\Duinn.GeneratedMSBuildEditorConfig.editorconfig

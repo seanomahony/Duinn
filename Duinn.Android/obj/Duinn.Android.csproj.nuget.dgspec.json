@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn.Android\\Duinn.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn.Android\\Duinn.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn.Android\\Duinn.Android.csproj",
+        "projectName": "Duinn.Android",
+        "projectPath": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn.Android\\Duinn.Android.csproj",
+        "packagesPath": "C:\\Users\\Sean.OMahony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sean.OMahony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.practiceevolve.io/repository/nuget-group/index.json": {},
+          "https://nuget.devexpress.com/oihU9ldnejx3WIHEGxIlIjPe7JFdpnFbmft4cfAdWBfHdNrKHi/api": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn\\Duinn.csproj": {
+                "projectPath": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn\\Duinn.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn\\Duinn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn\\Duinn.csproj",
+        "projectName": "Duinn",
+        "projectPath": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn\\Duinn.csproj",
+        "packagesPath": "C:\\Users\\Sean.OMahony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\Duinn\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sean.OMahony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.practiceevolve.io/repository/nuget-group/index.json": {},
+          "https://nuget.devexpress.com/oihU9ldnejx3WIHEGxIlIjPe7JFdpnFbmft4cfAdWBfHdNrKHi/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.55.0.2590, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

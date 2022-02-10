@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Shared\Controls\Calendar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Shared\Controls\DayView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Shared\Controls\DefaultFooterSection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Shared\Controls\DefaultHeaderSection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

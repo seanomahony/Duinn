@@ -1,0 +1,16 @@
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\bin\Debug\netstandard2.0\Duinn.deps.json
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\bin\Debug\netstandard2.0\Duinn.dll
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\bin\Debug\netstandard2.0\ref\Duinn.dll
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\bin\Debug\netstandard2.0\Duinn.pdb
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.AssemblyInfoInputs.cache
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.AssemblyInfo.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.csproj.CoreCompileInputs.cache
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.dll
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\ref\Duinn.dll
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.pdb
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\Duinn\obj\Debug\netstandard2.0\Duinn.csproj.AssemblyReference.cache

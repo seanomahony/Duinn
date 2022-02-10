@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QbYDBXN1n/GOZKWtHD5LkuFm732rSY2qc6YZ09xgBkCh1XCrvKilXtKVqdvSVE5Mb6m/farN3AfFOqeW9+AAbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sean.OMahony\\source\\repos\\Duinn\\CalendarPlugin\\CalendarPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sean.OMahony\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+  ],
+  "logs": []
+}

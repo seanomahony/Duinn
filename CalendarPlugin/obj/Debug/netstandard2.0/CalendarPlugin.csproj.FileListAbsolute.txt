@@ -1,0 +1,9 @@
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\CalendarPlugin.csproj.AssemblyReference.cache
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\CalendarPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\Shared\Controls\Calendar.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\Shared\Controls\DayView.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\Shared\Controls\DefaultFooterSection.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\Shared\Controls\DefaultHeaderSection.xaml.g.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\CalendarPlugin.AssemblyInfoInputs.cache
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\CalendarPlugin.AssemblyInfo.cs
+C:\Users\Sean.OMahony\source\repos\Duinn\CalendarPlugin\obj\Debug\netstandard2.0\CalendarPlugin.csproj.CoreCompileInputs.cache
