@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Duinn.Views.AddEvent">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Title:" TextColor="Teal"/>
+            <Entry x:Name="EventTitle" Text="{Binding CalendarEvent.Title}" TextColor="Teal" PlaceholderColor="Teal" />
+            <Label Text="Start of Event:" TextColor="Teal"/>
+            <DatePicker x:Name="StartDate" PropertyChanged="StartDate_PropertyChanged" Date="{Binding CalendarEvent.StartDate}" Format="dd/MMM/yyyy" TextColor="Teal"/>
+            <Label Text="End of Event:" TextColor="Teal" IsVisible="false"/>
+            <DatePicker x:Name="EndDate" Date="{Binding CalendarEvent.EndDate}" Format="dd/MMM/yyyy" TextColor="Teal" IsVisible="false"/>
+            <Label Text="Description:" TextColor="Teal"/>
+            <Entry x:Name="EventDesc" Text="{Binding CalendarEvent.Description}" TextColor="Teal" PlaceholderColor="Teal"/>
+            <Label Text="Who:" TextColor="Teal"/>
+            <Picker Title="Select event attendee:" ItemsSource="{Binding UsersList}" SelectedItem="{Binding SelectedUser}" TextColor="Teal"/>
+            <FlexLayout>
+                <Button Text="Save" Margin="5" Command="{Binding SaveCommand}"/>
+                <Button Text="Cancel" Margin="5" Command="{Binding ClearCommand}"/>
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

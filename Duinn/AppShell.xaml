@@ -3,14 +3,19 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:Duinn.Views"
        x:Class="Duinn.AppShell">
-    <!-- Display a bottom tab bar containing two tabs -->   
+
     <TabBar>
         <ShellContent Title="Calendar"
-                      Icon="icon_feed.png"
-                      ContentTemplate="{DataTemplate views:HomePage}" />
-        <ShellContent Title="Advanced Calendar"
-              Icon="icon_feed.png"
-              ContentTemplate="{DataTemplate views:HomePage}" />
-
+                      Icon="bear.png"
+                      ContentTemplate="{DataTemplate views:HomePage}" 
+                      Style="{StaticResource Key=ShellStyle}"/>
+        <ShellContent Title="Events List"
+                      Icon="elephant.png"
+                      ContentTemplate="{DataTemplate views:EventsList}" 
+                      Style="{StaticResource Key=ShellStyle}"/>
+        <ShellContent Title="Add Event"
+                      Icon="monkey.png"
+                      ContentTemplate="{DataTemplate views:AddEvent}"
+                      Style="{StaticResource Key=ShellStyle}"/>
     </TabBar>
 </Shell>

@@ -1,19 +1,19 @@
 bundleassemblies=false
-aotassemblies=false
+aotassemblies=true
 androidaddkeepalives=
-androidaotmode=none
+androidaotmode=normal
 androidembedprofilers=
-androidenableprofiledaot=
+androidenableprofiledaot=true
 androiddextool=d8
 androidlinktool=
 androidlinkresources=
 androidpackageformat=apk
-embedassembliesintoapk=false
-androidlinkmode=none
+embedassembliesintoapk=true
+androidlinkmode=sdkonly
 androidlinkskip=
 androidsdkbuildtoolsversion=30.0.2
 androidsdkpath=c:\program files (x86)\android\android-sdk\
-androidndkpath=
+androidndkpath=c:\program files (x86)\android\android-sdk\ndk-bundle\
 javasdkpath=c:\program files\eclipse foundation\jdk-8.0.302.8-hotspot\
 androidsequencepointsmode=none
 xamarinandroidversion=12.0.0-3
@@ -25,10 +25,8 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=637801004044216532
+_nugetassetstimestamp=637848407083194554
 typemapkind=strings-asm
-androidsupportedabis=arm64-v8a
-armeabi-v7a
-x86
-x86_64
+androidsupportedabis=armeabi-v7a
+arm64-v8a
 androidmanifestplaceholders=

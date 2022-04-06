@@ -2,7 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Duinn.Views.HomePage"
-             Title="Home">
-    <!-- Layout children vertically -->
-    
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             Title="Home"
+             Appearing="ContentPage_Appearing">
+    <ContentPage.Content>
+        <Grid Margin="16,44,16,16">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <controls:Calendar
+                Grid.Row="1"
+                Padding="10,0,10,0"
+                MonthNavigationShow="True"
+                SelectedBorderWidth="2"
+                SelectedBackgroundColor="#CCE4E8"
+                SelectedBorderColor="#CCE4E8"
+                DisabledBorderColor="Black"
+                BorderColor="White"
+                BorderWidth="1"
+                WeekdaysTextColor="Black"
+                ShowNumberOfWeek="false"
+                StartDay="Monday"
+                SelectedDate="{Binding Date}"
+                SpecialDates="{Binding CalendarEvents}"
+                DateCommand="{Binding DateChosen}">
+            </controls:Calendar>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>
