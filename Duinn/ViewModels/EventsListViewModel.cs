@@ -40,12 +40,10 @@ namespace Duinn.ViewModels
             } 
         }
 
-        public bool RemoveEvent(Models.CalendarEvent calendarEvent)
+        public bool RemoveEvent(string calendarEventID)
         {
-            if (!Models.CalendarEvents.EventsList.Remove(calendarEvent))
-            {
-                return false;
-            }
+            Models.CalendarEvents.EventsList = Models.CalendarEvents.EventsList.Where(ce => ce.ID != calendarEventID).ToList();
+
             UpdateEventsList();
             return true;
         }

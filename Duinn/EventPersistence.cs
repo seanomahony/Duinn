@@ -1,11 +1,6 @@
-﻿using Dropbox.Api;
-using Dropbox.Api.Files;
-using Newtonsoft.Json;
-using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
-using System.IO.Compression;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,7 +22,12 @@ namespace Duinn
             string output = JsonConvert.SerializeObject(Models.CalendarEvents.EventsList);
             var byteData = Encoding.UTF8.GetBytes(output);
             var uploadedFilename = await AzureStorage.UploadFileAsync(new MemoryStream(byteData));
+        }
 
+        public static async void SaveFromString(string list)
+        {
+            var byteData = Encoding.UTF8.GetBytes(list);
+            var uploadedFilename = await AzureStorage.UploadFileAsync(new MemoryStream(byteData));
         }
 
         public static async void ClearEvents()
