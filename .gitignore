@@ -28,7 +28,9 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
+**/bin/
 [Oo]bj/
+**/obj/
 [Ll]og/
 [Ll]ogs/
 
@@ -364,14 +366,11 @@ ASALocalRun/
 # Visual Studio History (VSHistory) files
 .vshistory/
 
-# BeatPulse healthcheck temp database
-healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# Ionide (cross platform F# VS Code tools) working folder
-.ionide/
+
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
@@ -394,5 +393,7 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# JetBrains Rider
-*.sln.iml
+/com.duinn.apk
+/.vs/Duinn/DesignTimeBuild/.dtbcache.v2
+/Duinn.Android/Duinn.Android.csproj.user
+/.vs/Duinn/v16/.suo
